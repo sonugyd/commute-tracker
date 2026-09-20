@@ -43,6 +43,7 @@ function App() {
         </div>
         
         <div className='form-group'>
+        <label>Note: </label>
         <input type='text' value={notes} onChange={(e) => setNotes(e.target.value)}/>
         </div>
 
